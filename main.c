@@ -4,8 +4,7 @@ int main(void)
 {
     int height;
     int leaves;
-    scanf("%d", &height);
-    scanf("%d", &leaves);
+    scanf("%d\n%d", &height, &leaves);
 
     int Tinuviel = (height <= 5 && leaves >= 8);
     int Calaelen = (height >= 10 && leaves >= 10);
